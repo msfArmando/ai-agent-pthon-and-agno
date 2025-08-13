@@ -1,0 +1,32 @@
+# Dependências principais
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Processamento de PDFs
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+pytesseract==0.3.10
+Pillow==10.1.0
+
+# IA e embeddings
+openai==1.3.7
+langchain==0.0.350
+langchain-openai==0.0.2
+psycopg2-binary==2.9.9
+pgvector==0.2.4
+sentence-transformers==2.2.2
+
+# Utilitários
+python-dotenv==1.0.0
+numpy==1.24.3
+pandas==2.0.3
+tqdm==4.66.1
+
+# Interface web
+streamlit==1.28.1
+streamlit-chat==0.1.1
+
+# Agno (se disponível)
+# agno==0.1.0
