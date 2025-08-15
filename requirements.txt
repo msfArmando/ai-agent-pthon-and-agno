@@ -25,8 +25,4 @@ pandas==2.0.3
 tqdm==4.66.1
 
 # Interface web
-streamlit==1.28.1
-streamlit-chat==0.1.1
-
-# Agno (se disponível)
-# agno==0.1.0
+agno==1.7.11

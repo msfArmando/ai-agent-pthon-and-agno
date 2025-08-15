@@ -1,5 +1,5 @@
 """
-Ponto de entrada principal do Agente de IA para Fobia Social
+Ponto de entrada principal do Agente de IA para Fobia Social (Agno)
 """
 
 import argparse
@@ -67,18 +67,18 @@ def process_pdfs():
 
 def run_interface():
     """
-    Executa a interface web
+    Executa a interface web Agno
     """
-    print("🌐 Iniciando interface web...")
+    print("🌐 Iniciando interface web Agno...")
     
     try:
         # Importa aqui para evitar problemas de dependência
-        from src.interface import main as run_web_interface
-        run_web_interface()
+        from src.interface import main as run_agno_interface
+        run_agno_interface()
         
     except ImportError as e:
         print(f"❌ Erro ao importar interface: {e}")
-        print("   Certifique-se de que todas as dependências estão instaladas")
+        print("   Certifique-se de que o Agno está instalado: pip install agno")
         sys.exit(1)
     except Exception as e:
         print(f"❌ Erro na interface: {e}")
@@ -127,11 +127,11 @@ def main():
     
     # Configura parser de argumentos
     parser = argparse.ArgumentParser(
-        description="Agente de IA para Tratamento Psicológico em Fobia Social",
+        description="Agente de IA para Tratamento Psicológico em Fobia Social (Agno)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Exemplos de uso:
-  python main.py                    # Executa a interface web
+  python main.py                    # Executa a interface web Agno
   python main.py --process-pdfs     # Processa PDFs apenas
   python main.py --status           # Mostra status do sistema
   python main.py --setup            # Configura diretórios

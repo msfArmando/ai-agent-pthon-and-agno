@@ -103,11 +103,12 @@ ai-agent-pthon-and-agno/
 - Busca por similaridade
 - Resultados relevantes
 
-### 🌐 Interface Web
+### 🌐 Interface Web Agno
 - Design moderno e responsivo
 - Chat em tempo real
-- Modo escuro/claro
+- Modo estudo para profissionais
 - Exportação de conversas
+- Interface web nativa do Agno
 
 ## Exemplos de Perguntas
 

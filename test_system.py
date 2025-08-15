@@ -114,7 +114,7 @@ def test_modules():
         return False
     
     try:
-        from src.embeddings import EmbeddingManager
+        from src.embeddings import PostgresEmbeddingManager
         print("✅ src.embeddings")
     except Exception as e:
         print(f"❌ src.embeddings: {e}")
@@ -157,6 +157,7 @@ def test_ocr():
     
     try:
         import pytesseract
+        pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
         version = pytesseract.get_tesseract_version()
         print(f"✅ Tesseract OCR disponível: {version}")
         return True

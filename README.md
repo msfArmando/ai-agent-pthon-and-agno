@@ -8,7 +8,7 @@ Este projeto implementa um agente de inteligência artificial especializado no a
 
 - **Processamento de PDFs**: Suporte a PDFs com e sem OCR
 - **Busca Semântica**: Utiliza embeddings para encontrar informações relevantes
-- **Interface Intuitiva**: Interface web limpa e focada na função principal
+- **Interface Intuitiva**: Interface web Agno limpa e focada na função principal
 - **Tom Empático**: Comunicação calma, respeitosa e acolhedora
 - **Base Científica**: Respostas sempre fundamentadas no material dos PDFs
 - **Modo Estudo**: Opção para profissionais com respostas mais técnicas
@@ -22,7 +22,7 @@ ai-agent-pthon-and-agno/
 │   ├── pdf_processor.py      # Processamento de PDFs
 │   ├── embeddings.py         # Geração e busca de embeddings
 │   ├── agent.py             # Lógica do agente de IA
-│   ├── interface.py         # Interface web
+│   ├── interface.py         # Interface web Agno
 │   └── utils.py             # Utilitários
 ├── data/
 │   ├── pdfs/                # Pasta para PDFs de entrada
@@ -121,11 +121,12 @@ PORT=8501
 - Modo estudo para profissionais
 - Histórico de conversas
 
-### 4. Interface Web
+### 4. Interface Web Agno
 - Interface limpa e intuitiva
 - Chat em tempo real
-- Modo escuro/claro
-- Responsiva para diferentes dispositivos
+- Modo estudo para profissionais
+- Exportação de conversas
+- Interface web moderna e responsiva
 
 ## Contribuição
 
